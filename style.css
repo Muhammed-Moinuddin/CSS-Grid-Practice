@@ -1,0 +1,29 @@
+.container{
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.item1{
+    background: lightgreen;
+}
+.item2{
+    background: lightblue;
+    align-self: end;
+}
+.item3{
+    background: lightcoral;
+    justify-self: center;
+}
+.item4{
+    background: yellow;
+}
+.item5{
+    background: orange;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+}
